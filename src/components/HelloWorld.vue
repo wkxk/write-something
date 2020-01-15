@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    我的第一个项目，jenkins自动化部署
+    小凯测试专用
   </div>
 </template>
 
@@ -21,6 +21,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .wrapper{
-  color: pink;
+  font-size: 100px;
+  font-weight: bold;
 }
 </style>
