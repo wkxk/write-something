@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     小凯测试专用
-    <p>是不是该写点啥啊</p>
+    <p>再次尝试</p>
   </div>
 </template>
 
