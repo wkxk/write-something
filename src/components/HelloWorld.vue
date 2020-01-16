@@ -1,7 +1,6 @@
 <template>
   <div class="wrapper">
     小凯测试专用
-    <p>再次尝试</p>
   </div>
 </template>
 
