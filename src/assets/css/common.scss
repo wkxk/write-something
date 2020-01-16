@@ -1,0 +1,77 @@
+$btnColor: #991200;
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.clear:before,.clear:after{content:" ";display:table}
+.clear:after{clear:both}
+.clear{*zoom:1}
+.clearFix:after{content:'';display:block;clear:both;height:0;}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: "Microsoft Yahei", "Helvetica", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  height: 100%;
+  font-weight: 400;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p,
+span,
+ul,
+li,
+a,
+strong,
+i {
+  font-family: "Microsoft Yahei", "Helvetica", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: rgba(179, 181, 183, 1)
+}
+
+.el-input__icon.el-input__validateIcon.el-icon-circle-check {
+  color: #0f0!important;
+}
+
