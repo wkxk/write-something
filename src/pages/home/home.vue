@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    我是home,自启动node
+    我是home
   </div>
 </template>
 
