@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    我是home,ss
+    我是home
   </div>
 </template>
 
