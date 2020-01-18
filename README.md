@@ -23,3 +23,5 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 # write-something
+
+https://travis-ci.com/wkxk/write-something.svg?branch=master
