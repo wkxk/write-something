@@ -6,7 +6,6 @@ const express = require("express");
 const userApi = require("./api/userApi");
 
 let server = express();
-// let server = http.createServer(app);
 
 server.use(badyParser.json());
 server.use(
