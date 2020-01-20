@@ -23,7 +23,7 @@ module.exports = {
       host : '144.34.205.222',
       ref  : 'origin/master',
       repo : 'git@github.com:wkxk/write-something.git',
-      path : './',
+      path : '/home/www/server',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
   }
