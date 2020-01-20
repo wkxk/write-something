@@ -21,5 +21,9 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.home{}
+.home{
+  font-size: .2rem;
+  text-align: center;
+  color: red;
+}
 </style>
