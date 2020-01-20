@@ -1,7 +1,8 @@
+/* eslint-disable no-console */
 module.exports = {
   apps : [{
     name: 'wkxk',
-    script: 'server/index.js',
+    script: './index.js',
 
     // Options reference: https://pm2.keymetrics.io/docs/usage/application-declaration/
     args: 'one two',
@@ -19,6 +20,14 @@ module.exports = {
 
   deploy : {
     production : {
+      user : 'root',
+      host : '144.34.205.222',
+      ref  : 'origin/master',
+      repo : 'git@github.com:wkxk/write-something.git',
+      path : '/home/www/server',
+      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
+    },
+    development : {
       user : 'root',
       host : '144.34.205.222',
       ref  : 'origin/master',
