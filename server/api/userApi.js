@@ -23,7 +23,6 @@ router.post("/login", (req, res) => {
     } else {
       if(result[0].password == params.password) {
         res.json({
-          data: {...result[0]},
           status: 200,
           msg: "登陆成功!"
         });
