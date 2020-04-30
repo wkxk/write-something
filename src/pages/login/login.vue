@@ -37,7 +37,7 @@ export default {
       identifyCode: "",
       errorInfo: false,
       ruleForm: {
-        username: 'wkxk',
+        username: 'iwkxk',
         password: '123456',
         validate: ''
       },
