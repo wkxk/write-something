@@ -38,7 +38,7 @@ export default {
       errorInfo: false,
       ruleForm: {
         username: 'wkxk',
-        password: '',
+        password: '12234',
         validate: ''
       },
       rules: {
